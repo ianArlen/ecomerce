@@ -1,0 +1,37 @@
+
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    gap: 5px;
+}
+
+.pagination .page-num{
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400 ;
+}
+
+.pagination .page-num:hover{
+    background-color: #21a4bb ;
+    color: white ;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.board {
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+}
+
